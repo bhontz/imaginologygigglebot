@@ -10,6 +10,8 @@
 **Activity Description**
 Using the microbit MU editor, flash the linefollower.py code to one of the two gigglebot micro:bits.  This is now a "line follower".  Make a line following course on the white shelf paper using black (important: black) electrical tape.  Make a closed loop of black tape leaving a gap of about 2 inches between the start end end of the loop.  Double up the tape (line should be two widths of standard electrical tape, or about 1.5" wide).
 
+**IMPORTANT** A note about the MU editor. You will need to install the dexter industries "runtime hex file" into the editor's environment.  From the MU editor's home screen, click on the gear icon next to the word Microbit at the bottom right of the screen.  Select the tab BBC microbit settings, and type in the path/filename to the dexter industries "runtime hex file" into the "Override the built in Micropython runtime" textbox.  You can download the runtime hex file from this dexter industries webpage: https://gigglebot.readthedocs.io/en/latest/quickstart.html.
+
 The second activity allows a user to control the other gigglebot with the "glove".  Using the micropython MU editor, flash the code radiotrasmitter.py to the glove's micro:bit, and flash the code radioreceiver.py to the gigglebot's micro:bit.
 
 Moving the glove up, down, left or right will cause the robot to move in that direction (down is forward, up is reverse) for one second.   Use electrical tape to map out a little parking lot and challenge users to try to "park" the gigglebot into the lot's spaces using the glove controller!
